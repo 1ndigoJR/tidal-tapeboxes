@@ -1,0 +1,1 @@
+{"author":{"name":"Jesus Rojas","url":"https://github.com/1ndigoJR"},"description":"📼 TapeBoxes para Tidal: catálogo de artista a playlist, mezclar original, dividir playlist y quitar canciones IA","main":"./src/index.ts","name":"@1ndigojr/tapeboxes-tidal","type":"module"}

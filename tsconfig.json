@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"strict": true,
+		"skipLibCheck": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"@luna/core": ["./node_modules/luna/render/src/index.ts"],
+			"@luna/lib": ["./node_modules/luna/plugins/lib/src/index.ts"]
+		}
+	},
+	"include": ["plugins/*/src", "esbuild.config.ts"]
+}

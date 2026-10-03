@@ -1,0 +1,23 @@
+{
+	"name": "tidal-tapeboxes",
+	"description": "TapeBoxes para Tidal — plugin de TidaLuna: catálogo de artista a playlist, mezclar, dividir y limpiar IA",
+	"type": "module",
+	"private": true,
+	"license": "MIT",
+	"author": {
+		"name": "Jesus Rojas",
+		"url": "https://github.com/1ndigoJR"
+	},
+	"packageManager": "pnpm@10.34.6",
+	"scripts": {
+		"build": "rimraf ./dist && tsx esbuild.config.ts",
+		"watch": "pnpm build --watch",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"luna": "github:Inrixia/TidaLuna",
+		"rimraf": "^6.1.2",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
+	}
+}
